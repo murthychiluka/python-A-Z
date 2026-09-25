@@ -55,7 +55,7 @@ Let us declare url variable for the website which we are going to scrape.
 
 import requests
 from bs4 import BeautifulSoup
-url = 'https://archive.ics.uci.edu/ml/datasets.php'
+url = 'https://archive.ics.uci.edu/ml/datasets'
 
 # Lets use the requests get method to fetch the data from url
 
